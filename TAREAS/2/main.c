@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-int main (int argc, char *argu[]){
+int main (int argc, char*argv[]){
 	int x;
-	printf("Introduce un número\n");
-	scanf("%i", &x);
-	x:atoi(argu[1]);
+	
+	x=atoi(argv[1]);
+
 	if(x%2==0){
 		printf("1\n");
 	}
