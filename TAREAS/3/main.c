@@ -6,13 +6,13 @@ int main(int argc, char*argv[]){
 	x= atof(argv[1]);
 	y= atof(argv[2]);
 
-	printf("La suma es %g\n", x+y);
+	printf("%.2lf\n", x+y);
 	
-	printf("La resta es %g\n", x-y);
+	printf("%.2lf\n", x-y);
 	
-	printf("La multiplicación es %g\n", x*y);
+	printf("%.2lf\n", x*y);
 	
-	printf("La división es %.2lf\n", x/y);
+	printf("%.2lf\n", x/y);
 
 	return 0;
 }
