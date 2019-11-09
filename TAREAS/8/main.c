@@ -9,7 +9,7 @@ int main(int argc, char*argv[]){
 	y=atof(argv[2]);
 
 	//Mientras x sea igual a 1 se convierte y a grados C
-	if(x==1){
+	if(x!=0){
 		z=(y*1.8)+32;
 		//Mostrando el resultado
 		printf("%.2f\n", z);
