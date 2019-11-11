@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main(int argc, char*argv[]){
-	//Declarando variables
+	//Declarando tipo de variable
 	double x, y, z;
 
 	//Convirtiendo argumentos, guardando en variable flotante
